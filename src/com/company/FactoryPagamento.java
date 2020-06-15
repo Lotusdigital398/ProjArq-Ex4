@@ -16,7 +16,7 @@ public class FactoryPagamento {
         System.out.println("4- PayPal");
         int input = sc.nextInt();
 
-        switch(input){
+        switch (input) {
             case 1:
                 PagarCredito p1 = new PagarCredito();
                 p1.calculaPagamento(valor);
@@ -37,9 +37,11 @@ public class FactoryPagamento {
                 p4.calculaPagamento(valor);
                 System.out.println("Muito Obrigado por utilizar nossos servicos!\nVolte sempre!!!");
                 break;
+            default:
+                System.out.println("Numero invalido, digite novamente.");
+                pagar();
+                break;
         }
-
     }
-
-
 }
+

@@ -1,0 +1,20 @@
+{
+  "produto": {
+    "0": {
+      "nome": "Bolo",
+      "preco": 10.00
+    },
+    "1": {
+      "nome": "Miojo",
+      "preco": 2.50
+    },
+    "2": {
+      "nome": "Pasta de dente",
+      "preco": 5.25
+    },
+    "3": {
+      "nome": "Carne",
+      "preco": 55.99
+    }
+  }
+}
